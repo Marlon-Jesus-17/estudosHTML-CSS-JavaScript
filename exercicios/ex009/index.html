@@ -3,39 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código-fonte / Pré-formatado</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas ordenadas</h2>
 
-    <pre>
-        <code>
-    num = int(input('Digite um número'))
-    if num % 2 == 0
-        printf(f'O número é par')
-    else
-        print(f'O número é impar')
-        </code>
-    </pre>
+    <ol type="1"> <!--1, A, a, I, i-->
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar creatina</li>
+        <li>Tomar café da manhã</li>
+        <li>Se arrumar pra faculdade</li>
+        <li>Ir para faculdade</li>
+        <li>Assistir as aulas</li>
+        <li>Ir para academia</li>
+        <li>Voltar para casa</li>
+        <li>Revisar a matéria da faculdade</li>
+        <li>Dormir</li>
+    </ol>
 
-    <h2>Citações simples</h2>
-    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
+    <h2>Listas não ordenadas</h2>
 
-    <h2>Citações completas</h2>
-    <p>Como disse o Neutro Shorty em sua música "Mariwana on the table": 
-        <blockquote cite="https://share.google/odiDGPN3zWBMIFEZd">
-            Voy sin tiempo, ya mi mente se perdió
-            El mundo ha cambiado porque mi mundo soy yo, yo, yo
-            Ya no veo porque el kripy me cegó
-            El humo en mi cuarto se quedó
-        </blockquote>
-    </p>
+    <ul type = "disc"> <!--disc, circle, square-->
+        <li>Ovo</li>
+        <li>Banana</li>
+        <li>Iogurte grego</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Pimentão verde</li>
+        <li>Pimentão vermelho</li>
+        <li>Pimentão laranja</li>
+        <li>Cebola</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Cebolinha</li>
+        <li>Salsa</li>
+        <li>Maça</li>
+        <li>Pêra</li>
+        <li>Tângirina</li>
+    </ul>
 
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading style sheets">CSS</abbr>, estou adorando</p>
+    <h2>Meus jogos favoritos</h2>
 
-    
+    <ol>
+        <li>Antigos</li>
+        <ul type="disc">
+            <li>Super Mario World</li>
+            <li>Donkey Kong country 2</li>
+            <li>Zelda Ocarina of Time</li>
+            <li>Diddy Kong Race</li>
+            <li>Guitar Hero 3</li>
+            <li>Guitar Hero 80's years</li>
+            <li>Tony Halk Holiwood</li>
+            <li>Urban Rage</li>
+        </ul>
+        <li>Novos</li>
+        <ul type="disc">
+            <li>Horizon Zero Down</li>
+            <li>Horizon Forbbiden West</li>
+            <li>The Last of Us Part 2</li>
+            <li>Hollow Knigth</li>
+            <li>Hollow Knigth Silk Song</li>
+            <li>Wazone</li>
+            <ul type = "circle">
+                <li>Warzone 1</li>
+                <li>Warzone 3</li>
+            </ul>
+            <li>Call of Duty</li>
+            <ul type = "circle">
+                <li>Black ops 3</li>
+                <li>Balck ops 4</li>
+            </ul>
+        </ul>
+    </ol>
+
+    <h2>Lista de definições</h2>
+
+    <dl>
+        <dt>HTML5</dt>
+        <dd>Linguagem de marcação para a criação de conteúdo de um site.</dd>
+        <dt>CSS3</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+
 </body>
 </html>
