@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Hearts';
+    src: url(fontes/hearts_salad/Hearts\ Salad.otf) format('opentype');
+    font-style: normal;
+    font-weight: normal;
+
+    /* 
+    Tipos de formatos:
+
+    -opentype (otf)
+    -truetype (ttf)
+    -embedded-opentype
+    -truetype-att (apple advanced Typography)
+    -svg
+    */
+    }
+@font-face {
+    font-family: 'Kinkee';
+    src: url(fontes/kinkee/KINKEE__.TTF) format('truetype');
+    }
+
+body{
+    font-family: 'Hearts',Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'Kinkee','Times New Roman', Times, serif;
+    font-size: 3em;
+}
