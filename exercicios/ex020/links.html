@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{ /*Links já visitados assumem essas características*/
+            color: darkred;
+        }
+
+        a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+
+        a:active{ /*Quando o links são clicados assumem essas características*/
+            color: yellow;
+        }
+
+        .especial::before{
+            content: '♣';
+        }
+
+        .especial::after{
+            content: ' ↵';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/Marlon-Jesus-17/EscolaAberta" target="_blank">Repositório Github</a></li>
+
+        <li><a href="https://www.youtube.com/@marlebas" target="_blank" class="especial">Canal do Youtube</a></li>
+
+        <li><a href="https://www.linkedin.com/in/marlonjesus/" target="_blank">linkedin</a></li>
+    </ul>
+</body>
+</html>
