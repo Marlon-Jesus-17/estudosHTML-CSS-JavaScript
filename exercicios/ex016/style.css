@@ -11,6 +11,7 @@ main{
     margin: auto;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #004c50a1;
+    margin-top: 0px;
 }
 
 body{

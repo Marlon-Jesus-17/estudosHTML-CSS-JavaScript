@@ -1,17 +1,40 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
 
 body{
-    background-color: lightgreen;
+    background-image: linear-gradient(to bottom, #03A63C, #04D939);
+}
+
+main{
+    background-color: white;
+    box-sizing: content-box;
+    margin: auto;
+    width: 80%;
+    box-shadow: 1px 1px 10px black;
+    text-align: justify;
+    padding: 30px;
 }
 
 nav > a{
     text-decoration: none;
     margin-right: 30px;
+    color: white;
 }
 
 header{
-    background-color: aquamarine;
+    background-image: linear-gradient(to top, #025939, #027333, #03A63C, #04D939);
+    margin: 0px;
+    width: 100%;
+    margin-top: -21px;
+    margin-left: -8px;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
 }
 
 header > h1{
@@ -24,7 +47,92 @@ header > p{
     text-align: center;
 }
 
+footer{
+    margin-top: 30px;
+    padding: 1px;
+    background-color: #027333;
+    text-align: center;
+    width: 100%;
+    padding-right: 19px;
+    margin-right: 3px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+}
+
+footer > p{
+    color: white;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+#extra{
+    background-color: #02593983;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#extra > h3{
+    color: white;
+    background-color: #03A63C;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+#extra > p{
+    padding: 10px;
+}
+
+div > p > a{
+    color: #037c2d;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#titulo_principal{
+    text-align: center;
+    color: white;
+}
+
+#descricao_principal{
+    text-align: center;
+    color: white;
+}
+
+#introducao > h1{
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: #025939;
+    text-align: initial;
+}
+
+.formatacao{
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #04d93932, rgba(255, 255, 255, 0.426));
+    color: #025939;
+    text-align: initial;
+}
+
 .lista{
     display: inline-block;
     margin-right: 10%;
 }
+
+.link{
+    text-decoration: none;
+    color: #03A63C;
+    font-weight: bolder;
+}
+
+.link_selecionado:hover{
+    text-decoration: underline;
+    color: #012340;
+}
+
+.negrito{
+    color: #03A63C;
+    font-weight: bolder;
+}
+
