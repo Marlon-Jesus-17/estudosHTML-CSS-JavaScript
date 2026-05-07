@@ -14,7 +14,7 @@ main{
     background-color: white;
     box-sizing: content-box;
     margin: auto;
-    width: 80%;
+    width: 50%;
     box-shadow: 1px 1px 10px black;
     text-align: justify;
     padding: 30px;
@@ -118,12 +118,19 @@ div > p > a{
 .lista{
     display: inline-block;
     margin-right: 10%;
+    list-style: none;
+}
+
+.lista > li::before{
+    content: '✔';
+    padding-right: 5px;
 }
 
 .link{
     text-decoration: none;
     color: #03A63C;
     font-weight: bolder;
+    background-color: #05d14c7b;
 }
 
 .link_selecionado:hover{
@@ -134,5 +141,16 @@ div > p > a{
 .negrito{
     color: #03A63C;
     font-weight: bolder;
+}
+
+.negrito_extra{
+    color: #037c2d;
+    font-weight: bolder;
+}
+
+.imagens{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
