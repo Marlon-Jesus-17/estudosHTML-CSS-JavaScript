@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Basileiro ou Estrangeiro</h1>
+    <input type="text" name="txtorigem" id="txtorigem">
+    <input type="button" value="verificar" onclick="clicar()">
+    <div id="res"></div>
+
+    <script>
+        function clicar(){
+            
+            var nacionalidade = window.document.getElementById('txtorigem').value.toLowerCase()
+
+            var res = window.document.getElementById('res')
+
+            if(nacionalidade == 'brasileiro'){
+                res.innerHTML = `<p>Você é brasileiro ${nacionalidade}</p>`
+            }else{
+                res.innerHTML = `<p>Você é estrangeiro</p>`
+            }
+        }
+    </script>
+
+</body>
+</html>
