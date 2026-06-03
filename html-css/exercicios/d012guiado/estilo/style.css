@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --fontPadrao: Verdana, Geneva, Tahoma, sans-serif;
+    --fontPassion: "Passion One", sans-serif;
+    --fontSriracha: "Sriracha", cursive;
+}
+
+
 * {
    margin: 0px;
    padding: 0px; 
@@ -8,6 +19,7 @@
 html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fontPadrao);
 }
 
 header{
@@ -19,6 +31,8 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps; /* deixa as primeiras letras maiúsculas*/
+    font-family: var(--fontPassion);
+    font-size: 10vw;
 }
 
 header > p{
@@ -40,6 +54,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fontSriracha);
+    font-size: 2.5vw;
 }
 
 section.normal{
@@ -54,7 +70,8 @@ section.imagem{
 
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.156);
-    width: 400px;
+    display: inline-block; /* caixa que se adapta ao tamanho do conteúdo*/
+    padding: 5px;
 }
 
 footer{
