@@ -23,10 +23,14 @@
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
-            background-color: rgb(90, 89, 89);
+            background-color: lightgray;
         }
 
         thead, tfoot{
+            background-color: rgb(90, 89, 89);
+        }
+
+        tbody > tr:nth-child(odd){ /*odd (impar), even(par), 2n ou 2n-1*/
             background-color: lightgray;
         }
 
@@ -70,6 +74,22 @@
             <tr>
                 <td>Rio de Janeiro</td>
                 <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7 164 788</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 463 957</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 132 078</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4 144 597</td>
             </tr>
         </tbody>
 
